@@ -1,0 +1,43 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+========
+
+EN version
+
+Link on listed download location here is not working anymore: <https://web.archive.org/web/20110223152204/http://www.avery.com:80/avery/en_US/Templates-%26-Software/Software/Avery-DesignPro-for-PC.htm?N=4294967076&refchannel=3980ac83ae70a110VgnVCM1000002118140aRCRD>
+
+The embedded software have been downloaded from the listed download
+location on <http://dl.avery.com/>
+and can be verified by doing the following:
+
+1. Download the following:
+ <http://dl.avery.com/DPSetup.exe>
+2. Get the checksum using one of the following methods:
+  - Using powershell function 'Get-FileHash'
+  - Use chocolatey utility 'checksum.exe'
+3. The checksums should match the following:
+
+  checksum type: sha256
+  checksum: CE62C4FDEE873AD13DD9202C84E766D2CFAF0A8F7629C5DAFABD29DD2855C7A6
+ 
+======== 
+  
+PL version
+  
+The embedded software have been downloaded from the listed download
+location on <https://web.archive.org/web/20140108000723/http://www.avery-zweckform.pl:80/download/avery-designpro-for-pc?language_id=6>
+and can be verified by doing the following:
+
+1. Download the following:
+ --> click link "Darmowe pobieranie" on page: <https://web.archive.org/web/20140108000723/http://www.avery-zweckform.pl:80/download/avery-designpro-for-pc?language_id=6>
+2. Get the checksum using one of the following methods:
+  - Using powershell function 'Get-FileHash'
+  - Use chocolatey utility 'checksum.exe'
+3. The checksums should match the following:
+
+  checksum type: sha256
+  checksum: 9D38B66BA4D3BE79BD89CD73B87A93C67DA4312726D2EF130F079FA9DC6A49CF
+  
+  
